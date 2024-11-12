@@ -1,0 +1,17 @@
+/* Custom Styles */
+.hero {
+    height: 70vh;
+    background: url('https://img3.wallspic.com/previews/7/1/9/8/6/168917/168917-low_poly-tablet-water-atmosphere-ecoregion-x750.jpg') no-repeat center center/cover;
+}
+
+#tentang img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
