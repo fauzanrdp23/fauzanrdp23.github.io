@@ -8,6 +8,14 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.float-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.float-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 .card {
     transition: transform 0.3s;
 }
